@@ -1,14 +1,33 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="wrapper" padding>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="inner-content" padding>
+    <div class="content" padding>
+      <form  (ngSubmit)="login()">
+        <img src="/assets/logoirf.png" class="logo" alt="">
+        <ion-input placeholder="Your Email Address" ></ion-input>
+<br>
+<br>
+        <ion-input placeholder="Your Password" type="password" ></ion-input>
+        <ion-button style="color:black;background-color:yellow" expand="block"  type="submit">Login</ion-button>
+      </form>
+      <ion-row class="line-area">
+        <ion-col>
+          <ion-row>
+            <ion-col></ion-col>
+            <ion-col class="line"></ion-col>
+          </ion-row>
+        </ion-col>
+  
+        <ion-col>
+          <ion-row>
+            <ion-col class="line"></ion-col>
+            <ion-col></ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+     
+    </div>
   </div>
+
+
 </ion-content>
