@@ -1,0 +1,7 @@
+{
+  "name": "jlationic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
